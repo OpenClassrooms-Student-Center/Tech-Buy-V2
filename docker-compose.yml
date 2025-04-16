@@ -21,7 +21,7 @@ services:
 
   tech-buy-symfony::    
     container_name: tech-buy-symfony
-    image: ghcr.io/oc-for-students/tech-buy-backend:2-0-0
+    image: ghcr.io/openclassrooms-student-center/tech-buy-backend:2-0-0
     ports:
       - 8081:8081
     environment:
@@ -41,7 +41,7 @@ services:
 
   tech-buy-angular:
     container_name: jardin-actuel-angular
-    image: ghcr.io/oc-for-students/tech-buy-frontend:2-0-0
+    image: ghcr.io/openclassrooms-student-center/tech-buy-frontend:2-0-0
     ports:
       - 8080:80
     networks:
