@@ -11,44 +11,34 @@
   <br><br><br>
 </p>
 
-# Prerequisites
-You need Docker to launch the app
-You can find instruction on [Docker website install](https://docs.docker.com/engine/install/)
+# Prérequis
+Pour démarrer cet applicatif web vous devez avoir les outils suivants:
+- Docker
 
-The most simple will be to install Docker Desktop
-
-# Installation and start
-After downloaded project or cloned it, you can start simply like this
+# Installation and démarrage
+Clonez le projet pour le récupérer
 ``` 
 git clone https://github.com/OpenClassrooms-Student-Center/Tech-Buy-V2.git
 cd Tech-Buy-V2
-
+```
+Pour démarrer le proojet
+```
 docker compose up -d
-
 ```
 
-# Important
-After start command, be sure that all containers are started before go to website.
-You can check it with Docker Desktop dashboard, all containers must be to green status
-
-## To close the project after work ;)
-Be sure to be in the project folder. Where the docker-compose.yml file is before the following command
-
+## Pour éteindre le projet
+Assurez vous d'être dans le dossier du projet (là où se trouve le fichier docker-compose.yml)
 ```
 docker compose down
 ```
 
-## At the end
-When you finish with this project don't forget to clean your system.
-All files use no needed space after.
+## Fin de travail
+Si vous ne revenez pas sur le projet, vous avez la possibilité de supprimer les fichiers et images Docker afin de récupérer la place
 
-If you use docker for this only project you can clear all data by
+Attention cela supprime tous les projets Docker de votre ordinateur
 
 ```
 docker system prune -a
-```
 
-For this only one project, you can delete it with Docker Desktop
-- Container
-- Image
-- Volume
+=> tapez Y puis Entrée
+```

@@ -19,7 +19,7 @@ services:
       timeout: 10s
       retries: 5
 
-  tech-buy-symfony::    
+  tech-buy-symfony:
     container_name: tech-buy-symfony
     image: ghcr.io/openclassrooms-student-center/tech-buy-backend:2-0-0
     ports:
